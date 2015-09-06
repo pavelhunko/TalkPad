@@ -1,0 +1,56 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="6dp" >
+
+        <ImageButton
+            android:id="@+id/btn_bullet"
+            style="@style/Toolbar.Button"
+            android:contentDescription="Start a bulleted list"
+            android:src="@drawable/bullet" />
+
+        <ImageButton
+            android:id="@+id/btn_numbering"
+            style="@style/Toolbar.Button"
+            android:contentDescription="Underline the selected text"
+            android:src="@drawable/numbering" />
+
+        <ImageButton
+            android:id="@+id/btn_indentdecrease"
+            style="@style/Toolbar.Button"
+            android:contentDescription="Decreases the indent level of the paragraph"
+            android:src="@drawable/indentdecrease_selector" />
+
+        <ImageButton
+            android:id="@+id/btn_indentincrease"
+            style="@style/Toolbar.Button"
+            android:contentDescription="Increase the indent level of the paragraph"
+            android:src="@drawable/indentincrease_selector" />
+
+        <ImageButton
+            android:id="@+id/btn_alignleft"
+            style="@style/Toolbar.Button"
+            android:contentDescription="Align text to the left"
+            android:src="@drawable/align_left" />
+
+        <ImageButton
+            android:id="@+id/btn_aligncenter"
+            style="@style/Toolbar.Button"
+            android:contentDescription="Center text"
+            android:src="@drawable/align_center" />
+
+        <ImageButton
+            android:id="@+id/btn_alignright"
+            style="@style/Toolbar.Button"
+            android:contentDescription="Align text to the right"
+            android:src="@drawable/align_right" />
+    </LinearLayout>
+
+</FrameLayout>

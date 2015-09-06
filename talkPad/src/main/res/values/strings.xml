@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TalkPad</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string-array name="sidebar_menu">
+        <item>New</item>
+        <item>Open</item>
+        <item>Save</item>
+        <item>Save As</item>
+        <item>Recent Files</item>
+        <item>About</item>
+        <item>Quit</item>
+    </string-array>
+
+    <string-array name="drive_menu">
+        <item>My TalkPad</item>
+        <item>SD Card</item>
+        <item>Device</item>
+    </string-array>
+    
+    <string name="ui_ok">OK</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Titles -->
+    <string name="title_editor">Ted - %1$s</string>
+    <string name="title_editor_dirty">Ted - %1$s *</string>
+    <string name="title_editor_readonly">Ted - [%1$s]</string>
+    <string name="title_save_as">Ted - Save as ... </string>
+    <string name="title_open_recent">Ted - Open Recent</string>
+    <string name="title_settings">Ted - Settings </string>
+    <string name="title_about">Ted - About ... </string>
+    <string name="title_font">Ted - Text Font </string>
+
+    <!-- Misc UI strings -->
+    <string name="ui_save_text">"Do you want to save your document? \nAny unsaved changes will be lost. "</string>
+    <string name="ui_save">Save</string>
+    <string name="ui_delete">Delete</string>
+    <string name="ui_no_save">"Don't save"</string>
+    <string name="ui_cancel">Cancel</string>
+    <string name="ui_hint_file_name">File name</string>
+    <string name="ui_hint_search">Search</string>
+    <string name="ui_art_licence">Artistic Licence</string>
+    <string name="ui_history">History</string>
+    <string name="ui_force_read_only">Open as read only</string>
+
+    <!-- Toast -->
+    <string name="toast_no_recent_files">There are no recent files to load</string>
+    <string name="toast_recent_files_invalid">"File doesn't exist anymore, removing from recent list."</string>
+    <string name="toast_recent_files_deleted">File deleted from recent list</string>
+    <string name="toast_intent_invalid_uri">Unable to open the file, URI is invalid</string>
+    <string name="toast_intent_illegal">Unable to open the file.\nPlease select .talkpad file.</string>
+    <string name="toast_activity_open">Unable to load the file browser</string>
+    <string name="toast_activity_open_recent">Unable to open the recent files list</string>
+    <string name="toast_activity_save_as">Unable to load the file browser</string>
+    <string name="toast_open_home_page_error">Default file not found, try setting a new one in the settings.</string>
+    <string name="toast_home_page_cant_read">"Can't open default file cause it isn't readable"</string>
+    <string name="toast_memory_open">Unable to open the file, not enough memory</string>
+    <string name="toast_open_error">Unable to open the file (maybe the file is too big, or corrupted)</string>
+    <string name="toast_save_null">Unable to save, path is null</string>
+    <string name="toast_save_error">Unable to save file</string>
+    <string name="toast_save_temp">Unable to save to temp file</string>
+    <string name="toast_save_delete">Unable to save (error while copying temp file to save location)</string>
+    <string name="toast_save_rename">Unable to save (error while copying temp file to save location)</string>
+    <string name="toast_save_success">File saved</string>
+    <string name="toast_folder_cant_write">"Can't use this folder cause it isn't writeable"</string>
+    <string name="toast_file_cant_read">"Can't use this file cause it isn't readable"</string>
+    <string name="toast_search_not_found">No match was found in the current file</string>
+    <string name="toast_search_eof">No more match found in the current file</string>
+    <string name="toast_search_no_input">Type a text to search in the search bar</string>
+    <string name="toast_filename_empty">The filename must not be empty</string>
+    <string name="toast_warn_no_undo">Nothing to undo anymore.</string>
+    <string name="toast_recent">Recent Files</string>
+    <string name="toast_no_recent">No Recent Files</string>
+    <string name="Choose_a_font_type">Choose a font type</string>
+    <string name="choose_a_font">Choose a Font</string>
+    <string name="choose_a_fontcolor">Choose a font color</string>
+    <string name="choose_a_fontsize">Choose a font size</string>
+    <string name="choose_a_speechlanguage">Choose a speech language</string>
+    
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/mnu_language"
+        android:icon="@drawable/menu_language"
+        android:title="Speech Recognition Language"/>
+
+    <item
+        android:id="@+id/mnu_linenumber"
+        android:icon="@drawable/menu_check"
+        android:title="Line Number"/>
+
+    <item
+        android:id="@+id/mnu_listofcomands"
+        android:icon="@drawable/command_selector"
+        android:title="List of Commands"/>
+    
+</menu><!-- From: file:/home/pavelhunko/workspace/TalkPad1/talkPad/src/main/res/menu/setting.xml -->

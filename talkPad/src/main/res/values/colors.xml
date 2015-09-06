@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="red_copper">#8b2323</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="gray">#ff919191</color>
+    <color name="dont_account">#ffeb7a9c</color>
+    <color name="btn_text">#ff977b24</color>
+    <color name="feast_separator">#fff2e3b8</color>
+    <color name="title">#ff4caf50</color>
+    <color name="selected">#fff7549e</color>
+    <color name="description">#ff4d4d4d</color>
+    <color name="feast_points_label">#ffb3b3b3</color>
+    <color name="feast_points_gold">#ffa68635</color>
+    <color name="promo_cat_bg">#ff242424</color>
+    <color name="category_divider1">#8b2323</color>
+    <color name="category_divider2">#8d2626</color>
+    <color name="search_bg_top">#fff5ebcb</color>
+    <color name="search_bg_bottom">#ffd1c5a3</color>
+    <color name="search_bottom_separator">#ffe0d6b8</color>
+    <color name="list_bottom_strip">#ffffbf00</color>
+    <color name="list_seperator">#fff0e1b9</color>
+    <color name="bid_item_name">#4d4d4d</color>
+    <color name="bid_separator">#f9bc1e</color>
+    <color name="bid_detail_top_bg">#f0eec9</color>
+    <color name="text_hint_color">#8c8c8c</color>
+    <color name="profile_text_color">#183d50</color>
+    <color name="contents_text">#ff000000</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="possible_result_points">#c0ffbd21</color>
+    <!-- Android standard ICS color -->
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c099cc00</color>
+    <!-- Android standard ICS color -->
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="viewfinder_laser">#ffcc0000</color>
+    <!-- Android standard ICS color -->
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="setting_field_title">#919191</color>
+    <color name="setting_field_text">#ffbfbfbf</color>
+    <color name="setting_bseparator">#ffd6d6d6</color>
+    <color name="text_field">#ffd1d1d1</color>
+    <color name="input_text">#d7d7d7</color>
+
+    <color name="pressed_color">#4d90fe</color>
+    <color name="selected_color">#e7e7e7</color>
+    <color name="default_color">#ffffff</color>
+    
+    <color name="title_color">#ff8b2323</color>
+    <color name="sep_color">#ff8b2323</color>
+    <color name="btn_normal_color">#ff8b2323</color>
+    <color name="btn_pressed_color">#ff8b3626</color>
+    <color name="back_color">#ffffffff</color>
+    <color name="gray_backcolor">#fff1f1f1</color>
+    <color name="transparent_color">#00000000</color>
+    
+</resources>

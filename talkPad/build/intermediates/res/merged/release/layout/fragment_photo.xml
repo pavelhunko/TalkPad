@@ -1,0 +1,39 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="1dp" >
+
+        <ImageButton
+            android:id="@+id/btn_addphoto"
+            style="@style/Toolbar.Button"
+            android:padding="2dp"
+            android:contentDescription="Add a photo"
+            android:scaleType="fitCenter"
+            android:src="@drawable/add_picture" />
+
+        <FrameLayout
+            android:layout_width="1dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/category_divider1"
+            android:layout_height="match_parent" >
+        </FrameLayout>
+
+        <ImageButton
+            android:id="@+id/btn_takepicture"
+            style="@style/Toolbar.Button"
+            android:padding="2dp"
+            android:contentDescription="Take the picture"
+            android:scaleType="fitCenter"
+            android:src="@drawable/camera" />
+
+    </LinearLayout>
+
+</FrameLayout><!-- From: file:/D:/workspace/upwork/TalkPad1/talkPad/src/main/res/layout/fragment_photo.xml -->

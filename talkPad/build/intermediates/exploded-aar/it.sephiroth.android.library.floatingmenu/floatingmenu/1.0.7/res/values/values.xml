@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/crugnola/Documents/git/sephiroth74/android-floating-action-menu/floatingmenu/src/main/res/values/attrs.xml -->
+    <eat-comment/>
+    <attr format="enum" name="fam_direction">
+		<enum name="horizontal" value="0"/>
+		<enum name="vertical" value="1"/>
+	</attr>
+    <declare-styleable name="FloatingActionItem"><attr format="reference" name="fam_item_background"/><attr format="integer" name="fam_item_delay"/><attr format="reference" name="fam_item_stateListAnimator"/><attr name="android:src"/><attr name="android:padding"/></declare-styleable>
+    <declare-styleable name="FloatingActionMenu"><attr format="dimension" name="fam_threshold"/><attr format="dimension" name="fam_gap"/><attr format="dimension" name="fam_horizontalPadding"/><attr format="dimension" name="fam_verticalPadding"/><attr name="android:animationDuration"/><attr name="android:interpolator"/><attr format="integer" name="fam_gravity"/><attr name="fam_direction"/></declare-styleable>
+    <!-- From: file:/Users/crugnola/Documents/git/sephiroth74/android-floating-action-menu/floatingmenu/src/main/res/values/dimen.xml -->
+    <eat-comment/>
+    <dimen name="floating_action_item_default_padding">18dip</dimen>
+    <dimen name="floating_action_item_elevation_normal">2dip</dimen>
+    <dimen name="floating_action_item_elevation_pressed">8dip</dimen>
+</resources>

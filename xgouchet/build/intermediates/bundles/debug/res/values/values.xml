@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad1/xgouchet/src/main/res/values/dimen.xml -->
+    <eat-comment/>
+    <dimen name="compound_text_drawable_padding">5dp</dimen>
+    <dimen name="dialog_buttons_margin">16dp</dimen>
+    <dimen name="list_item_pading">4dp</dimen>
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad1/xgouchet/src/main/res/values/ids.xml -->
+    <eat-comment/>
+    <item name="buttonDonate" type="id"/>
+    <item name="buttonMail" type="id"/>
+    <item name="buttonMarket" type="id"/>
+    <item name="buttonRate" type="id"/>
+    <item name="textFileName" type="id"/>
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad1/xgouchet/src/main/res/values/toasts.xml -->
+    <eat-comment/>
+    <string name="toast_folder_cant_read">"Can't display folder cause it isn't readable"</string>
+    <string name="toast_folder_doesnt_exist">"Can't display folder cause it doesn't exist"</string>
+    <string name="toast_folder_not_folder">"Can't display folder cause it isn't a fodler"</string>
+    <string name="toast_no_market">The Android Play Store is not present on this device</string>
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad1/xgouchet/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="ui_additional_licences">Additional Licences</string>
+    <string name="ui_app_rating">"Rate this app \n Leave a feedback"</string>
+    <string name="ui_art_licence_content">"All icons for this app were created and belong to the author of the app : Xavier Gouchet (android@xgouchet.fr)."</string>
+    <string name="ui_art_licence_title">Artistic Licence</string>
+    <string name="ui_cancel">Cancel</string>
+    <string name="ui_choose_mail">Open mail using … </string>
+    <string name="ui_contact_title">Contact</string>
+    <string name="ui_donate_content">"This application is completely free to use, and doesn't bother you with ads. I try my best to make it as good as possible, but only do this on my free time. If you want to support my work, you can click the Donate button below."</string>
+    <string name="ui_donate_title">Donate</string>
+    <string name="ui_donate_url">"http://xgouchet.fr/donate_en.php"</string>
+    <string name="ui_feedback">"Please feel free to contact me for any feedback, feature request or bug report. "</string>
+    <string name="ui_history">History</string>
+    <string name="ui_licence_content">"This software is provided 'as-is', without any express or implied warranty.	In no event will the author be held liable for any damages arising from the use of this software."</string>
+    <string name="ui_licence_title">Licence</string>
+    <string name="ui_mail">android@xgouchet.fr</string>
+    <string name="ui_market">"Take a look at my other apps"</string>
+    <string name="ui_market_app_url">"https://play.google.com/store/apps/details?id=%s"</string>
+    <string name="ui_market_url">"https://market.android.com/developer?pub=Xavier+Gouchet"</string>
+    <string name="ui_no">No</string>
+    <string name="ui_ok">OK</string>
+    <string name="ui_whats_new">"What's new"</string>
+    <string name="ui_yes">Yes</string>
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad1/xgouchet/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="ButtonSmall">
+        <item name="android:padding">6dp</item>
+    </style>
+    <style name="TextContent">
+        <item name="android:paddingTop">6dp</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="TextSubTitle">
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="TextTitle">
+        <item name="android:paddingTop">14dp</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

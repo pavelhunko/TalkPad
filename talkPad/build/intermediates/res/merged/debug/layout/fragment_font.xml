@@ -1,0 +1,52 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="6dp" >
+
+        <ImageButton
+            android:id="@+id/btn_bold"
+            style="@style/Toolbar.Button"
+            android:contentDescription="Make the selected text bold"
+            android:scaleType="centerInside"
+            android:src="@drawable/bold" />
+
+        <ImageButton
+            android:id="@+id/btn_underline"
+            style="@style/Toolbar.Button"
+            android:contentDescription="Underline the selected text"
+            android:src="@drawable/underline" />
+
+        <ImageButton
+            android:id="@+id/btn_italic"
+            style="@style/Toolbar.Button"
+            android:contentDescription="Italicize the selected text"
+            android:src="@drawable/italic" />
+
+        <ImageButton
+            android:id="@+id/btn_changecase"
+            style="@style/Toolbar.Button"
+            android:contentDescription="Change all the selected text to UPPERCASE, lowercase, or other common capitalizations"
+            android:src="@drawable/fontname_selector" />
+        
+        <ImageButton
+            android:id="@+id/btn_changecolor"
+            style="@style/Toolbar.Button"
+            android:contentDescription="Change the text color"
+            android:src="@drawable/fontcolor_selector" />
+        
+        <ImageButton
+            android:id="@+id/btn_adjustsize"
+            style="@style/Toolbar.Button"
+            android:contentDescription="Adjust the selected text size"
+            android:src="@drawable/fontsize_selector" />
+
+    </LinearLayout>
+
+</FrameLayout><!-- From: file:/home/pavelhunko/workspace/TalkPad1/talkPad/src/main/res/layout/fragment_font.xml -->

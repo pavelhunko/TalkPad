@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:drawable="@drawable/action_item_background"></item>
+</selector><!-- From: file:/Users/crugnola/Documents/git/sephiroth74/android-floating-action-menu/floatingmenu/src/main/res/drawable/action_item_background_selector.xml -->

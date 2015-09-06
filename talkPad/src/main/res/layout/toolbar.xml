@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/layout_pager"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="1dp" >
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/toolbar_pager"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+
+    </RelativeLayout>
+    
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/red_copper"
+        android:layout_marginBottom="2dp"
+        android:layout_height="1dp"/>
+
+    <com.viewpagerindicator.CirclePageIndicator
+        android:id="@+id/indicator"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5.0dip"
+        app:fillColor="#70000000"
+        app:pageColor="#88ffffff"
+        app:radius="10.0dip"
+        app:strokeColor="#70000000"
+        app:strokeWidth="1.0dip" />
+</LinearLayout>

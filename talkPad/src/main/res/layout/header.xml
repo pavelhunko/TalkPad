@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_header"
+    android:layout_width="match_parent"
+    android:layout_height="55dp" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:contentDescription="@null"
+        android:scaleType="fitXY"
+        android:src="#4caf50" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="1dp" >
+
+        <ImageButton
+            android:id="@+id/btn_left"
+            style="@style/Header.Button.Left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:src="@drawable/menu_selector"
+            android:contentDescription="@null"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/header_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="45dp"
+            android:layout_toLeftOf="@+id/btn_undo"
+            android:ellipsize="end"
+            android:gravity="center_horizontal"
+            android:paddingLeft="2dp"
+            android:paddingRight="8dp"
+            android:singleLine="true"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+	    <ImageButton
+	        android:id="@+id/btn_redo"
+	        style="@style/Header.Button"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_centerVertical="true"
+	        android:layout_toLeftOf="@+id/btn_setting"
+	        android:src="@drawable/redo_selector" />
+
+	    <ImageButton
+	        android:id="@+id/btn_undo"
+	        style="@style/Header.Button.Center"
+	        android:layout_centerVertical="true"
+	        android:layout_toLeftOf="@+id/btn_redo"
+	        android:src="@drawable/undo_selector" />
+
+	    <ImageView
+	        android:id="@+id/btn_setting"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="8dp"
+	        android:layout_marginRight="8dp"
+	        android:layout_alignParentRight="true"
+	        android:layout_centerVertical="true"
+	        android:src="@drawable/setting" />
+	    	    
+    </RelativeLayout>
+
+</RelativeLayout>

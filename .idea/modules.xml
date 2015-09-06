@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/TalkPad1.iml" filepath="$PROJECT_DIR$/TalkPad1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iconContextMenu_T/iconContextMenu_T.iml" filepath="$PROJECT_DIR$/iconContextMenu_T/iconContextMenu_T.iml" />
+      <module fileurl="file://$PROJECT_DIR$/talkPad/talkPad.iml" filepath="$PROJECT_DIR$/talkPad/talkPad.iml" />
+      <module fileurl="file://$PROJECT_DIR$/viewpagier/viewpagier.iml" filepath="$PROJECT_DIR$/viewpagier/viewpagier.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xgouchet/xgouchet.iml" filepath="$PROJECT_DIR$/xgouchet/xgouchet.iml" />
+    </modules>
+  </component>
+</project>
