@@ -22,4 +22,4 @@
         android:layout_weight="1"
         android:text="@string/ui_cancel" />
 
-</LinearLayout><!-- From: file:/D:/workspace/upwork/TalkPad/xgouchet/src/main/res/layout/buttons_ok_cancel.xml -->
+</LinearLayout><!-- From: file:/home/pavelhunko/workspace/TalkPad/xgouchet/src/main/res/layout/buttons_ok_cancel.xml -->

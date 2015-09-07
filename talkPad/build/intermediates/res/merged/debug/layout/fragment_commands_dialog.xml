@@ -19,4 +19,4 @@
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="Small Text"
         android:id="@+id/commands_dialog_body" />
-</LinearLayout><!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/src/main/res/layout/fragment_commands_dialog.xml -->
+</LinearLayout><!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/src/main/res/layout/fragment_commands_dialog.xml -->

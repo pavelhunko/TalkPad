@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/src/main/res/values/arrays.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/src/main/res/values/arrays.xml -->
     <eat-comment/>
     <string-array name="color_theme_names">
         <item>Classic</item>
@@ -16,14 +16,14 @@
         <item>3</item>
         <item>4</item>
     </string-array>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/src/main/res/values/strings.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string-array name="drive_menu">
         <item>My TalkPad</item>
         <item>SD Card</item>
         <item>Device</item>
     </string-array>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/src/main/res/values/arrays.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/src/main/res/values/arrays.xml -->
     <eat-comment/>
     <string-array name="encoding_names">
         <item>ASCII</item>
@@ -71,7 +71,7 @@
         <item>200</item>
         <item>500</item>
     </string-array>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/src/main/res/values/strings.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string-array name="sidebar_menu">
         <item>New</item>
@@ -82,7 +82,7 @@
         <item>About</item>
         <item>Quit</item>
     </string-array>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/src/main/res/values/arrays.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/src/main/res/values/arrays.xml -->
     <eat-comment/>
     <string-array name="text_size_names">
         <item>6 pt</item>
@@ -108,25 +108,25 @@
         <item>32</item>
         <item>48</item>
     </string-array>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/build/intermediates/exploded-aar/TalkPad/viewpagier/unspecified/res/values/values.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/build/intermediates/exploded-aar/TalkPad/viewpagier/unspecified/res/values/values.xml -->
     <eat-comment/>
     <attr format="boolean" name="centered"/>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <attr format="reference" name="drawerArrowStyle"/>
     <attr format="dimension" name="height"/>
     <attr format="boolean" name="isLightTheme"/>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/build/intermediates/exploded-aar/TalkPad/viewpagier/unspecified/res/values/values.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/build/intermediates/exploded-aar/TalkPad/viewpagier/unspecified/res/values/values.xml -->
     <eat-comment/>
     <attr format="color" name="selectedColor"/>
     <attr format="dimension" name="strokeWidth"/>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <attr format="string" name="title"/>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/build/intermediates/exploded-aar/TalkPad/viewpagier/unspecified/res/values/values.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/build/intermediates/exploded-aar/TalkPad/viewpagier/unspecified/res/values/values.xml -->
     <eat-comment/>
     <attr format="color" name="unselectedColor"/>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <bool name="abc_action_bar_embed_tabs">true</bool>
     <bool name="abc_action_bar_embed_tabs_pre_jb">false</bool>
@@ -134,14 +134,14 @@
     <bool name="abc_config_actionMenuItemAllCaps">true</bool>
     <bool name="abc_config_allowActionMenuItemTextWithIcon">false</bool>
     <bool name="abc_config_showMenuShortcutsWhenKeyboardPresent">false</bool>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/build/intermediates/exploded-aar/TalkPad/viewpagier/unspecified/res/values/values.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/build/intermediates/exploded-aar/TalkPad/viewpagier/unspecified/res/values/values.xml -->
     <eat-comment/>
     <bool name="default_circle_indicator_centered">true</bool>
     <bool name="default_circle_indicator_snap">false</bool>
     <bool name="default_line_indicator_centered">true</bool>
     <bool name="default_title_indicator_selected_bold">true</bool>
     <bool name="default_underline_indicator_fades">true</bool>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <color name="abc_input_method_navigation_guard">@android:color/black</color>
     <color name="abc_search_url_text_normal">#7fa87f</color>
@@ -149,22 +149,22 @@
     <color name="abc_search_url_text_selected">@android:color/black</color>
     <color name="accent_material_dark">@color/material_deep_teal_200</color>
     <color name="accent_material_light">@color/material_deep_teal_500</color>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/src/main/res/values/colors.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="back_color">#ffffffff</color>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <color name="background_floating_material_dark">#ff424242</color>
     <color name="background_floating_material_light">#ffeeeeee</color>
     <color name="background_material_dark">#ff303030</color>
     <color name="background_material_light">#ffeeeeee</color>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/src/main/res/values/colors.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="bid_detail_top_bg">#f0eec9</color>
     <color name="bid_item_name">#4d4d4d</color>
     <color name="bid_separator">#f9bc1e</color>
     <color name="black">#000000</color>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <color name="bright_foreground_disabled_material_dark">#80ffffff</color>
     <color name="bright_foreground_disabled_material_light">#80000000</color>
@@ -172,29 +172,29 @@
     <color name="bright_foreground_inverse_material_light">@color/bright_foreground_material_dark</color>
     <color name="bright_foreground_material_dark">@android:color/white</color>
     <color name="bright_foreground_material_light">@android:color/black</color>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/src/main/res/values/colors.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="btn_normal_color">#ff8b2323</color>
     <color name="btn_pressed_color">#ff8b3626</color>
     <color name="btn_text">#ff977b24</color>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <color name="button_material_dark">#ff5a595b</color>
     <color name="button_material_light">#ffd6d7d7</color>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/src/main/res/values/colors.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="category_divider1">#8b2323</color>
     <color name="category_divider2">#8d2626</color>
     <color name="contents_text">#ff000000</color>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/build/intermediates/exploded-aar/TalkPad/viewpagier/unspecified/res/values/values.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/build/intermediates/exploded-aar/TalkPad/viewpagier/unspecified/res/values/values.xml -->
     <eat-comment/>
     <color name="default_circle_indicator_fill_color">#FF8b2323</color>
     <color name="default_circle_indicator_page_color">#00000000</color>
     <color name="default_circle_indicator_stroke_color">#FF8b2323</color>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/src/main/res/values/colors.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="default_color">#ffffff</color>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/build/intermediates/exploded-aar/TalkPad/viewpagier/unspecified/res/values/values.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/build/intermediates/exploded-aar/TalkPad/viewpagier/unspecified/res/values/values.xml -->
     <eat-comment/>
     <color name="default_line_indicator_selected_color">#FF33B5E5</color>
     <color name="default_line_indicator_unselected_color">#FFBBBBBB</color>
@@ -202,16 +202,16 @@
     <color name="default_title_indicator_selected_color">#FFFFFFFF</color>
     <color name="default_title_indicator_text_color">#BBFFFFFF</color>
     <color name="default_underline_indicator_selected_color">#FF33B5E5</color>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/src/main/res/values/colors.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="description">#ff4d4d4d</color>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <color name="dim_foreground_disabled_material_dark">#80bebebe</color>
     <color name="dim_foreground_disabled_material_light">#80323232</color>
     <color name="dim_foreground_material_dark">#ffbebebe</color>
     <color name="dim_foreground_material_light">#ff323232</color>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/src/main/res/values/colors.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="dont_account">#ffeb7a9c</color>
     <color name="encode_view">#ffffffff</color>
@@ -220,35 +220,35 @@
     <color name="feast_separator">#fff2e3b8</color>
     <color name="gray">#ff919191</color>
     <color name="gray_backcolor">#fff1f1f1</color>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <color name="highlighted_text_material_dark">#6680cbc4</color>
     <color name="highlighted_text_material_light">#66009688</color>
     <color name="hint_foreground_material_dark">@color/bright_foreground_disabled_material_dark</color>
     <color name="hint_foreground_material_light">@color/bright_foreground_disabled_material_light</color>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/src/main/res/values/colors.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="input_text">#d7d7d7</color>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <color name="link_text_material_dark">@color/material_deep_teal_200</color>
     <color name="link_text_material_light">@color/material_deep_teal_500</color>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/src/main/res/values/colors.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="list_bottom_strip">#ffffbf00</color>
     <color name="list_seperator">#fff0e1b9</color>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <color name="material_blue_grey_800">#ff37474f</color>
     <color name="material_blue_grey_900">#ff263238</color>
     <color name="material_blue_grey_950">#ff21272b</color>
     <color name="material_deep_teal_200">#ff80cbc4</color>
     <color name="material_deep_teal_500">#ff009688</color>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/src/main/res/values/colors.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="possible_result_points">#c0ffbd21</color>
     <color name="pressed_color">#4d90fe</color>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <color name="primary_dark_material_dark">#ff000000</color>
     <color name="primary_dark_material_light">#ff757575</color>
@@ -258,7 +258,7 @@
     <color name="primary_text_default_material_light">#de000000</color>
     <color name="primary_text_disabled_material_dark">#4Dffffff</color>
     <color name="primary_text_disabled_material_light">#39000000</color>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/src/main/res/values/colors.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="profile_text_color">#183d50</color>
     <color name="promo_cat_bg">#ff242424</color>
@@ -267,22 +267,22 @@
     <color name="result_points">#c099cc00</color>
     <color name="result_text">#ffffffff</color>
     <color name="result_view">#b0000000</color>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <color name="ripple_material_dark">#40ffffff</color>
     <color name="ripple_material_light">#40000000</color>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/src/main/res/values/colors.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="search_bg_bottom">#ffd1c5a3</color>
     <color name="search_bg_top">#fff5ebcb</color>
     <color name="search_bottom_separator">#ffe0d6b8</color>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <color name="secondary_text_default_material_dark">#b3ffffff</color>
     <color name="secondary_text_default_material_light">#8a000000</color>
     <color name="secondary_text_disabled_material_dark">#36ffffff</color>
     <color name="secondary_text_disabled_material_light">#24000000</color>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/src/main/res/values/colors.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="selected">#fff7549e</color>
     <color name="selected_color">#e7e7e7</color>
@@ -291,11 +291,11 @@
     <color name="setting_field_text">#ffbfbfbf</color>
     <color name="setting_field_title">#919191</color>
     <color name="status_text">#ffffffff</color>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <color name="switch_thumb_normal_material_dark">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_light">#fff1f1f1</color>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/src/main/res/values/colors.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="text_field">#ffd1d1d1</color>
     <color name="text_hint_color">#8c8c8c</color>
@@ -305,7 +305,7 @@
     <color name="transparent_color">#00000000</color>
     <color name="viewfinder_laser">#ffcc0000</color>
     <color name="viewfinder_mask">#60000000</color>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/build/intermediates/exploded-aar/TalkPad/viewpagier/unspecified/res/values/values.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/build/intermediates/exploded-aar/TalkPad/viewpagier/unspecified/res/values/values.xml -->
     <eat-comment/>
     <color name="vpi__background_holo_dark">#ff000000</color>
     <color name="vpi__background_holo_light">#fff3f3f3</color>
@@ -315,7 +315,7 @@
     <color name="vpi__bright_foreground_holo_light">@color/vpi__background_holo_dark</color>
     <color name="vpi__bright_foreground_inverse_holo_dark">@color/vpi__bright_foreground_holo_light</color>
     <color name="vpi__bright_foreground_inverse_holo_light">@color/vpi__bright_foreground_holo_dark</color>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/src/main/res/values/colors.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="white">#ffffffff</color>
     <declare-styleable name="ActionBar"><attr name="navigationMode"><enum name="normal" value="0"/><enum name="listMode" value="1"/><enum name="tabMode" value="2"/></attr><attr name="displayOptions"><flag name="none" value="0"/><flag name="useLogo" value="0x1"/><flag name="showHome" value="0x2"/><flag name="homeAsUp" value="0x4"/><flag name="showTitle" value="0x8"/><flag name="showCustom" value="0x10"/><flag name="disableHome" value="0x20"/></attr><attr name="title"/><attr format="string" name="subtitle"/><attr format="reference" name="titleTextStyle"/><attr format="reference" name="subtitleTextStyle"/><attr format="reference" name="icon"/><attr format="reference" name="logo"/><attr format="reference" name="divider"/><attr format="reference" name="background"/><attr format="reference|color" name="backgroundStacked"/><attr format="reference|color" name="backgroundSplit"/><attr format="reference" name="customNavigationLayout"/><attr name="height"/><attr format="reference" name="homeLayout"/><attr format="reference" name="progressBarStyle"/><attr format="reference" name="indeterminateProgressStyle"/><attr format="dimension" name="progressBarPadding"/><attr name="homeAsUpIndicator"/><attr format="dimension" name="itemPadding"/><attr format="boolean" name="hideOnContentScroll"/><attr format="dimension" name="contentInsetStart"/><attr format="dimension" name="contentInsetEnd"/><attr format="dimension" name="contentInsetLeft"/><attr format="dimension" name="contentInsetRight"/><attr format="dimension" name="elevation"/><attr format="reference" name="popupTheme"/></declare-styleable>
@@ -348,7 +348,7 @@
     <declare-styleable name="View"><attr format="dimension" name="paddingStart"/><attr format="dimension" name="paddingEnd"/><attr name="android:focusable"/></declare-styleable>
     <declare-styleable name="ViewPagerIndicator"><attr format="reference" name="vpiCirclePageIndicatorStyle"/><attr format="reference" name="vpiIconPageIndicatorStyle"/><attr format="reference" name="vpiLinePageIndicatorStyle"/><attr format="reference" name="vpiTitlePageIndicatorStyle"/><attr format="reference" name="vpiTabPageIndicatorStyle"/><attr format="reference" name="vpiUnderlinePageIndicatorStyle"/></declare-styleable>
     <declare-styleable name="ViewStubCompat"><attr name="android:layout"/><attr name="android:inflatedId"/><attr name="android:id"/></declare-styleable>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <dimen name="abc_action_bar_default_height_material">56dp</dimen>
     <dimen name="abc_action_bar_default_padding_material">4dp</dimen>
@@ -387,14 +387,14 @@
     <dimen name="abc_text_size_subtitle_material_toolbar">16dp</dimen>
     <dimen name="abc_text_size_title_material">20sp</dimen>
     <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/src/main/res/values/dimens.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/build/intermediates/exploded-aar/TalkPad/xgouchet/unspecified/res/values/values.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/build/intermediates/exploded-aar/TalkPad/xgouchet/unspecified/res/values/values.xml -->
     <eat-comment/>
     <dimen name="compound_text_drawable_padding">5dp</dimen>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/build/intermediates/exploded-aar/TalkPad/viewpagier/unspecified/res/values/values.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/build/intermediates/exploded-aar/TalkPad/viewpagier/unspecified/res/values/values.xml -->
     <eat-comment/>
     <dimen name="default_circle_indicator_radius">3dp</dimen>
     <dimen name="default_circle_indicator_stroke_width">1dp</dimen>
@@ -409,10 +409,10 @@
     <dimen name="default_title_indicator_text_size">15dp</dimen>
     <dimen name="default_title_indicator_title_padding">5dp</dimen>
     <dimen name="default_title_indicator_top_padding">7dp</dimen>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/build/intermediates/exploded-aar/TalkPad/xgouchet/unspecified/res/values/values.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/build/intermediates/exploded-aar/TalkPad/xgouchet/unspecified/res/values/values.xml -->
     <eat-comment/>
     <dimen name="dialog_buttons_margin">16dp</dimen>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <item name="dialog_fixed_height_major" type="dimen">80%</item>
     <item name="dialog_fixed_height_minor" type="dimen">100%</item>
@@ -420,57 +420,57 @@
     <item name="dialog_fixed_width_minor" type="dimen">320dp</item>
     <item format="float" name="disabled_alpha_material_dark" type="dimen">0.30</item>
     <item format="float" name="disabled_alpha_material_light" type="dimen">0.26</item>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/build/intermediates/exploded-aar/com.github.clans/fab/1.6.0/res/values/values.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/build/intermediates/exploded-aar/com.github.clans/fab/1.6.0/res/values/values.xml -->
     <eat-comment/>
     <dimen name="fab_size_mini">40dp</dimen>
     <dimen name="fab_size_normal">56dp</dimen>
     <dimen name="labels_text_size">14sp</dimen>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/build/intermediates/exploded-aar/TalkPad/xgouchet/unspecified/res/values/values.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/build/intermediates/exploded-aar/TalkPad/xgouchet/unspecified/res/values/values.xml -->
     <eat-comment/>
     <dimen name="list_item_pading">4dp</dimen>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/src/main/res/values/dimens.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="navigation_drawer_width">240dp</dimen>
     <dimen name="titlebar_height">44dp</dimen>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <item name="action_bar_activity_content" type="id"/>
     <item name="action_bar_spinner" type="id"/>
     <item name="action_menu_divider" type="id"/>
     <item name="action_menu_presenter" type="id"/>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/build/intermediates/exploded-aar/TalkPad/xgouchet/unspecified/res/values/values.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/build/intermediates/exploded-aar/TalkPad/xgouchet/unspecified/res/values/values.xml -->
     <eat-comment/>
     <item name="buttonDonate" type="id"/>
     <item name="buttonMail" type="id"/>
     <item name="buttonMarket" type="id"/>
     <item name="buttonRate" type="id"/>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/build/intermediates/exploded-aar/com.github.clans/fab/1.6.0/res/values/values.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/build/intermediates/exploded-aar/com.github.clans/fab/1.6.0/res/values/values.xml -->
     <eat-comment/>
     <item name="fab_label" type="id"/>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <item name="home" type="id"/>
     <item name="progress_circular" type="id"/>
     <item name="progress_horizontal" type="id"/>
     <item name="split_action_bar" type="id"/>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/build/intermediates/exploded-aar/TalkPad/xgouchet/unspecified/res/values/values.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/build/intermediates/exploded-aar/TalkPad/xgouchet/unspecified/res/values/values.xml -->
     <eat-comment/>
     <item name="textFileName" type="id"/>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <item name="up" type="id"/>
     <integer name="abc_max_action_buttons">2</integer>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/build/intermediates/exploded-aar/TalkPad/viewpagier/unspecified/res/values/values.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/build/intermediates/exploded-aar/TalkPad/viewpagier/unspecified/res/values/values.xml -->
     <eat-comment/>
     <integer name="default_circle_indicator_orientation">0</integer>
     <integer name="default_title_indicator_footer_indicator_style">2</integer>
     <integer name="default_title_indicator_line_position">0</integer>
     <integer name="default_underline_indicator_fade_delay">300</integer>
     <integer name="default_underline_indicator_fade_length">400</integer>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/src/main/res/values/strings.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="Choose_a_font_type">Choose a font type</string>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <string name="abc_action_bar_home_description">Navigate home</string>
     <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
@@ -488,7 +488,7 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/src/main/res/values/strings.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="app_name">TalkPad</string>
     <string name="choose_a_font">Choose a Font</string>
@@ -510,26 +510,26 @@
     <string name="toast_activity_save_as">Unable to load the file browser</string>
     <string name="toast_file_cant_read">"Can't use this file cause it isn't readable"</string>
     <string name="toast_filename_empty">The filename must not be empty</string>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/build/intermediates/exploded-aar/TalkPad/xgouchet/unspecified/res/values/values.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/build/intermediates/exploded-aar/TalkPad/xgouchet/unspecified/res/values/values.xml -->
     <eat-comment/>
     <string name="toast_folder_cant_read">"Can't display folder cause it isn't readable"</string>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/src/main/res/values/strings.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="toast_folder_cant_write">"Can't use this folder cause it isn't writeable"</string>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/build/intermediates/exploded-aar/TalkPad/xgouchet/unspecified/res/values/values.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/build/intermediates/exploded-aar/TalkPad/xgouchet/unspecified/res/values/values.xml -->
     <eat-comment/>
     <string name="toast_folder_doesnt_exist">"Can't display folder cause it doesn't exist"</string>
     <string name="toast_folder_not_folder">"Can't display folder cause it isn't a fodler"</string>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/src/main/res/values/strings.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="toast_home_page_cant_read">"Can't open default file cause it isn't readable"</string>
     <string name="toast_intent_illegal">Unable to open the file.\nPlease select .talkpad file.</string>
     <string name="toast_intent_invalid_uri">Unable to open the file, URI is invalid</string>
     <string name="toast_memory_open">Unable to open the file, not enough memory</string>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/build/intermediates/exploded-aar/TalkPad/xgouchet/unspecified/res/values/values.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/build/intermediates/exploded-aar/TalkPad/xgouchet/unspecified/res/values/values.xml -->
     <eat-comment/>
     <string name="toast_no_market">The Android Play Store is not present on this device</string>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/src/main/res/values/strings.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="toast_no_recent">No Recent Files</string>
     <string name="toast_no_recent_files">There are no recent files to load</string>
@@ -548,40 +548,40 @@
     <string name="toast_search_no_input">Type a text to search in the search bar</string>
     <string name="toast_search_not_found">No match was found in the current file</string>
     <string name="toast_warn_no_undo">Nothing to undo anymore.</string>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/build/intermediates/exploded-aar/TalkPad/xgouchet/unspecified/res/values/values.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/build/intermediates/exploded-aar/TalkPad/xgouchet/unspecified/res/values/values.xml -->
     <eat-comment/>
     <string name="ui_additional_licences">Additional Licences</string>
     <string name="ui_app_rating">"Rate this app \n Leave a feedback"</string>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/src/main/res/values/strings.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="ui_art_licence">Artistic Licence</string>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/build/intermediates/exploded-aar/TalkPad/xgouchet/unspecified/res/values/values.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/build/intermediates/exploded-aar/TalkPad/xgouchet/unspecified/res/values/values.xml -->
     <eat-comment/>
     <string name="ui_art_licence_content">"All icons for this app were created and belong to the author of the app : Xavier Gouchet (android@xgouchet.fr)."</string>
     <string name="ui_art_licence_title">Artistic Licence</string>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/src/main/res/values/strings.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="ui_cancel">Cancel</string>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/build/intermediates/exploded-aar/TalkPad/xgouchet/unspecified/res/values/values.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/build/intermediates/exploded-aar/TalkPad/xgouchet/unspecified/res/values/values.xml -->
     <eat-comment/>
     <string name="ui_choose_mail">Open mail using … </string>
     <string name="ui_contact_title">Contact</string>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/src/main/res/values/strings.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="ui_delete">Delete</string>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/build/intermediates/exploded-aar/TalkPad/xgouchet/unspecified/res/values/values.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/build/intermediates/exploded-aar/TalkPad/xgouchet/unspecified/res/values/values.xml -->
     <eat-comment/>
     <string name="ui_donate_content">"This application is completely free to use, and doesn't bother you with ads. I try my best to make it as good as possible, but only do this on my free time. If you want to support my work, you can click the Donate button below."</string>
     <string name="ui_donate_title">Donate</string>
     <string name="ui_donate_url">"http://xgouchet.fr/donate_en.php"</string>
     <string name="ui_feedback">"Please feel free to contact me for any feedback, feature request or bug report. "</string>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/src/main/res/values/strings.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="ui_force_read_only">Open as read only</string>
     <string name="ui_hint_file_name">File name</string>
     <string name="ui_hint_search">Search</string>
     <string name="ui_history">History</string>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/build/intermediates/exploded-aar/TalkPad/xgouchet/unspecified/res/values/values.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/build/intermediates/exploded-aar/TalkPad/xgouchet/unspecified/res/values/values.xml -->
     <eat-comment/>
     <string name="ui_licence_content">"This software is provided 'as-is', without any express or implied warranty.	In no event will the author be held liable for any damages arising from the use of this software."</string>
     <string name="ui_licence_title">Licence</string>
@@ -590,21 +590,21 @@
     <string name="ui_market_app_url">"https://play.google.com/store/apps/details?id=%s"</string>
     <string name="ui_market_url">"https://market.android.com/developer?pub=Xavier+Gouchet"</string>
     <string name="ui_no">No</string>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/src/main/res/values/strings.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="ui_no_save">"Don't save"</string>
     <string name="ui_ok">OK</string>
     <string name="ui_save">Save</string>
     <string name="ui_save_text">"Do you want to save your document? \nAny unsaved changes will be lost. "</string>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/build/intermediates/exploded-aar/TalkPad/xgouchet/unspecified/res/values/values.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/build/intermediates/exploded-aar/TalkPad/xgouchet/unspecified/res/values/values.xml -->
     <eat-comment/>
     <string name="ui_whats_new">"What's new"</string>
     <string name="ui_yes">Yes</string>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/src/main/res/values/styles.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="AppTheme" parent="Theme.AppCompat.Light">
     </style>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <style name="Base.TextAppearance.AppCompat" parent="android:TextAppearance">
         <item name="android:textColor">?android:textColorPrimary</item>
@@ -1358,12 +1358,12 @@
         <item name="android:scaleType">center</item>
         <item name="android:background">?attr/selectableItemBackground</item>
     </style>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/build/intermediates/exploded-aar/TalkPad/xgouchet/unspecified/res/values/values.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/build/intermediates/exploded-aar/TalkPad/xgouchet/unspecified/res/values/values.xml -->
     <eat-comment/>
     <style name="ButtonSmall">
         <item name="android:padding">6dp</item>
     </style>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/src/main/res/values/styles.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="FloatingActionMenuStyle">
 		
@@ -1387,7 +1387,7 @@
     <style name="Header.Button.Right">
         <item name="android:layout_alignParentRight">true</item>
     </style>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <style name="Platform.AppCompat" parent="android:Theme">
         <item name="android:windowNoTitle">true</item>
@@ -1555,7 +1555,7 @@
     <style name="RtlOverlay.Widget.AppCompat.SearchView.MagIcon" parent="android:Widget">
         <item name="android:layout_marginLeft">@dimen/abc_dropdownitem_text_padding_left</item>
     </style>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/src/main/res/values/styles.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="TalkPad"/>
     <style name="TalkPad.Button">
@@ -1613,7 +1613,7 @@
         <item name="android:textSize">25sp</item>
         <item name="android:textStyle">bold</item>
     </style>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <style name="TextAppearance.AppCompat" parent="Base.TextAppearance.AppCompat"/>
     <style name="TextAppearance.AppCompat.Body1" parent="Base.TextAppearance.AppCompat.Body1"/>
@@ -1656,18 +1656,18 @@
     <style name="TextAppearance.AppCompat.Widget.PopupMenu.Large" parent="Base.TextAppearance.AppCompat.Widget.PopupMenu.Large"/>
     <style name="TextAppearance.AppCompat.Widget.PopupMenu.Small" parent="Base.TextAppearance.AppCompat.Widget.PopupMenu.Small"/>
     <style name="TextAppearance.AppCompat.Widget.Switch" parent="Base.TextAppearance.AppCompat.Widget.Switch"/>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/build/intermediates/exploded-aar/TalkPad/viewpagier/unspecified/res/values/values.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/build/intermediates/exploded-aar/TalkPad/viewpagier/unspecified/res/values/values.xml -->
     <eat-comment/>
     <style name="TextAppearance.TabPageIndicator" parent="Widget">
         <item name="android:textStyle">bold</item>
         <item name="android:textColor">@color/vpi__dark_theme</item>
     </style>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <style name="TextAppearance.Widget.AppCompat.ExpandedMenu.Item" parent="Base.TextAppearance.Widget.AppCompat.ExpandedMenu.Item"/>
     <style name="TextAppearance.Widget.AppCompat.Toolbar.Subtitle" parent="Base.TextAppearance.Widget.AppCompat.Toolbar.Subtitle"/>
     <style name="TextAppearance.Widget.AppCompat.Toolbar.Title" parent="Base.TextAppearance.Widget.AppCompat.Toolbar.Title"/>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/build/intermediates/exploded-aar/TalkPad/xgouchet/unspecified/res/values/values.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/build/intermediates/exploded-aar/TalkPad/xgouchet/unspecified/res/values/values.xml -->
     <eat-comment/>
     <style name="TextContent">
         <item name="android:paddingTop">6dp</item>
@@ -1682,7 +1682,7 @@
         <item name="android:textSize">24sp</item>
         <item name="android:textStyle">bold</item>
     </style>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <style name="Theme.AppCompat" parent="Base.Theme.AppCompat"/>
     <style name="Theme.AppCompat.CompactMenu" parent="Base.Theme.AppCompat.CompactMenu"/>
@@ -1700,20 +1700,20 @@
         <item name="windowActionBar">false</item>
         <item name="android:windowNoTitle">true</item>
     </style>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/build/intermediates/exploded-aar/TalkPad/viewpagier/unspecified/res/values/values.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/build/intermediates/exploded-aar/TalkPad/viewpagier/unspecified/res/values/values.xml -->
     <eat-comment/>
     <style name="Theme.PageIndicatorDefaults" parent="android:Theme">
         <item name="vpiIconPageIndicatorStyle">@style/Widget.IconPageIndicator</item>
         <item name="vpiTabPageIndicatorStyle">@style/Widget.TabPageIndicator</item>
     </style>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <style name="ThemeOverlay.AppCompat" parent="Base.ThemeOverlay.AppCompat"/>
     <style name="ThemeOverlay.AppCompat.ActionBar" parent="Base.ThemeOverlay.AppCompat.ActionBar"/>
     <style name="ThemeOverlay.AppCompat.Dark" parent="Base.ThemeOverlay.AppCompat.Dark"/>
     <style name="ThemeOverlay.AppCompat.Dark.ActionBar" parent="Base.ThemeOverlay.AppCompat.Dark.ActionBar"/>
     <style name="ThemeOverlay.AppCompat.Light" parent="Base.ThemeOverlay.AppCompat.Light"/>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/src/main/res/values/styles.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="Toolbar"/>
     <style name="Toolbar.Button">
@@ -1724,11 +1724,11 @@
         <item name="android:scaleType">centerInside</item>
         <item name="android:layout_gravity">center_vertical</item>
     </style>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/build/intermediates/exploded-aar/TalkPad/viewpagier/unspecified/res/values/values.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/build/intermediates/exploded-aar/TalkPad/viewpagier/unspecified/res/values/values.xml -->
     <eat-comment/>
     <style name="Widget">
     </style>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <style name="Widget.AppCompat.ActionBar" parent="Base.Widget.AppCompat.ActionBar"/>
     <style name="Widget.AppCompat.ActionBar.Solid" parent="Base.Widget.AppCompat.ActionBar.Solid"/>
@@ -1783,7 +1783,7 @@
     <style name="Widget.AppCompat.Spinner.DropDown.ActionBar" parent="Base.Widget.AppCompat.Spinner.DropDown.ActionBar"/>
     <style name="Widget.AppCompat.Toolbar" parent="Base.Widget.AppCompat.Toolbar"/>
     <style name="Widget.AppCompat.Toolbar.Button.Navigation" parent="Base.Widget.AppCompat.Toolbar.Button.Navigation"/>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/build/intermediates/exploded-aar/TalkPad/viewpagier/unspecified/res/values/values.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/build/intermediates/exploded-aar/TalkPad/viewpagier/unspecified/res/values/values.xml -->
     <eat-comment/>
     <style name="Widget.IconPageIndicator" parent="Widget">
         <item name="android:layout_marginLeft">6dp</item>
@@ -1800,7 +1800,7 @@
         <item name="android:textSize">12sp</item>
         <item name="android:maxLines">1</item>
     </style>
-    <!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/src/main/res/values/styles.xml -->
+    <!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="loading_dialog" parent="@android:style/Theme.Dialog">
         <item name="android:windowIsTranslucent">true</item>

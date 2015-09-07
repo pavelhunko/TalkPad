@@ -1,15 +1,5 @@
 package com.idragonit.talkpad.fragment;
 
-import java.io.File;
-import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
-import java.util.Vector;
-
-import yuku.iconcontextmenu.IconContextMenu;
-import yuku.iconcontextmenu.IconContextMenu.IconContextItemSelectedListener;
-
 import android.content.ActivityNotFoundException;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -36,7 +26,6 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.View.MeasureSpec;
 import android.view.ViewGroup;
-import android.view.animation.OvershootInterpolator;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -44,6 +33,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.github.clans.fab.FloatingActionButton;
 import com.github.clans.fab.FloatingActionMenu;
 import com.idragonit.talkpad.AppConstants;
 import com.idragonit.talkpad.R;
@@ -62,6 +52,16 @@ import com.idragonit.talkpad.utils.ImageFilePath;
 import com.idragonit.talkpad.utils.Stack;
 import com.viewpagerindicator.CirclePageIndicator;
 
+import java.io.File;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+import java.util.Vector;
+
+import yuku.iconcontextmenu.IconContextMenu;
+import yuku.iconcontextmenu.IconContextMenu.IconContextItemSelectedListener;
+
 public class MainFragment extends Fragment implements View.OnTouchListener,
         TextWatcher, Constants, LanguagePickerDialog.LanguagePickerListener {
 
@@ -72,7 +72,7 @@ public class MainFragment extends Fragment implements View.OnTouchListener,
     static Boolean vis;
     private static String TAG = "MainFragment";
     static private TNoteData mNote; // g
-//    private static FloatingActionMenu mFloatingActionMenu;
+    //    private static FloatingActionMenu mFloatingActionMenu;
     protected TNoteEditText mNoteEdit; // a
     MainFragment instance;
     FontFragment mFontFragment;
@@ -151,8 +151,6 @@ public class MainFragment extends Fragment implements View.OnTouchListener,
     RelativeLayout mLayoutPager = null;
     RelativeLayout mLayoutHeader = null;
     ResponsiveScrollView mScrollView = null;
-    //	private ImageButton mSpeechBtn;
-//	private ImageButton mCommandBtn;
     KeyboardPopupListener key_listener;
     LanguagePickerDialog languagePickerDialog;
     Handler mCommandClickListener = new Handler() {
@@ -473,6 +471,8 @@ public class MainFragment extends Fragment implements View.OnTouchListener,
 
         ;
     };
+    private FloatingActionButton fSpeechButton;
+    private FloatingActionButton fCommandButton;
     private SpeechRecognizer mSpeechRecognizer;
     private Intent mSpeechRecognizerIntent;
     private boolean isListening;
@@ -480,6 +480,7 @@ public class MainFragment extends Fragment implements View.OnTouchListener,
     private ImageButton mRedoBtn;
     private ImageView mSettingBtn;
     private boolean isOperating = true;
+    private FloatingActionMenu mFloatingActionMenu;
 
     @Override
     public void onResume() {
@@ -507,13 +508,7 @@ public class MainFragment extends Fragment implements View.OnTouchListener,
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle args) {
         View view = inflater.inflate(R.layout.fragment_main, container, false);
-        // mColSizePanel = (ViewGroup) view
-        // .findViewById(R.id.edit_color_size_panel);
-        // mColorGroup = (ViewGroup) inflater.inflate(
-        // R.layout.command_group_color, (ViewGroup) null);
-        // for (int i = 0; i < mColorGroup.getChildCount(); i++) {
-        // mColorGroup.getChildAt(i).setOnClickListener(mPanelClickListener);
-        // }
+
 
         String filename = APP_NAME;
         if (AppConstants.FILE_PATH.length() == 0) {
@@ -534,7 +529,6 @@ public class MainFragment extends Fragment implements View.OnTouchListener,
         btnMenu.setOnTouchListener(this);
 
         mLayoutToolbar = (LinearLayout) view.findViewById(R.id.layout_toolbar);
-//        mLayoutCommand = (LinearLayout) view.findViewById(R.id.layout_command);
         mLayoutPager = (RelativeLayout) view.findViewById(R.id.layout_pager);
         mLayoutHeader = (RelativeLayout) view.findViewById(R.id.layout_header);
 
@@ -546,24 +540,31 @@ public class MainFragment extends Fragment implements View.OnTouchListener,
         mNoteEdit = (TNoteEditText) view.findViewById(R.id.editor);
         mSettingBtn = (ImageView) view.findViewById(R.id.btn_setting);
 
-//		mSpeechBtn = (ImageButton) view.findViewById(R.id.btn_speech);
-//		mCommandBtn = (ImageButton) view.findViewById(R.id.btn_command);
+        mFloatingActionMenu = (FloatingActionMenu) view.findViewById(R.id.floating_action_menu);
 
+        fSpeechButton = (FloatingActionButton) view.findViewById(R.id.floating_menu_speech);
+        fCommandButton = (FloatingActionButton) view.findViewById(R.id.floating_menu_command);
 
-//        FloatingActionItem fSpeechButton = new FloatingActionItem.Builder(0).withResId(R.drawable.speech_selector)
-//                .withDelay(0)
-//                .withPadding(4)
-//                .build();
-//        FloatingActionItem fCommandButton = new FloatingActionItem.Builder(1).withResId(R.drawable.command_selector).withPadding(4)
-//                .withDelay(50).build();
-//
-//        mFloatingActionMenu = new FloatingActionMenu.Builder(getActivity())
-//                .addItem(fSpeechButton)
-//                .addItem(fCommandButton)
-//                .withGravity(FloatingActionMenu.Gravity.CENTER_HORIZONTAL | FloatingActionMenu.Gravity.BOTTOM)
-//                .build();
-//
-//        mFloatingActionMenu.setOnItemClickListener(this);
+        fSpeechButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Settings.SELECTION_START = mNoteEdit.getSelectionStart();
+                Settings.SELECTION_END = mNoteEdit.getSelectionEnd();
+                if (!isListening)
+                    speak(ACTIVITY_RESULT__VOICE_SPEECH);
+
+            }
+        });
+
+        fCommandButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Settings.SELECTION_START = mNoteEdit.getSelectionStart();
+                Settings.SELECTION_END = mNoteEdit.getSelectionEnd();
+                speak(ACTIVITY_RESULT__VOICE_COMMAND);
+            }
+        });
+
 
         if (AppConstants.LINE_NUMBER) {
             mNoteEdit.setPadding(dpToPx(25), dpToPx(3), dpToPx(10), dpToPx(6));
@@ -609,19 +610,9 @@ public class MainFragment extends Fragment implements View.OnTouchListener,
 
         mUndoBtn.setOnTouchListener(this);
         mRedoBtn.setOnTouchListener(this);
-//		mSpeechBtn.setOnTouchListener(this);
-//		mCommandBtn.setOnTouchListener(this);
 
         instance = this;
         initView(view);
-
-        // if (mLayoutPager != null) {
-        // LinearLayout.LayoutParams param = (LinearLayout.LayoutParams)
-        // mLayoutPager
-        // .getLayoutParams();
-        // param.height = dpToPx(60);
-        // mLayoutPager.setLayoutParams(param);
-        // }
 
         key_listener = new KeyboardPopupListener() {
             @Override
@@ -634,24 +625,10 @@ public class MainFragment extends Fragment implements View.OnTouchListener,
 
             @Override
             public void onHide() {
-                // TODO Auto-generated method stub
                 if (mLayoutCommand != null)
                     mLayoutCommand.setVisibility(View.VISIBLE);
 
-                // if (mLayoutHeader != null)
-                // mLayoutHeader.setVisibility(View.VISIBLE);
-                //
-                // if (mLayoutPager != null) {
-                // LinearLayout.LayoutParams param = (LinearLayout.LayoutParams)
-                // mLayoutPager
-                // .getLayoutParams();
-                // param.height = dpToPx(60);
-                // mLayoutPager.setLayoutParams(param);
-                // }
 
-                // if (mLayoutToolbar!=null)
-                // mLayoutToolbar.setVisibility(View.VISIBLE);
-                // showColorSizePanel(false, 0);
             }
         };
 
@@ -766,11 +743,6 @@ public class MainFragment extends Fragment implements View.OnTouchListener,
             // Stack.setEmptyString(mNote.getHtmlNote(mNoteEdit));
         }
 
-        // Log.e("Init", Settings.TEMP_NOTES);
-
-        // if (AppConstants.EDIT_MODE == NEW_MODE){
-        // } else {
-        // }
         AppConstants.EDIT_MODE = OPEN_MODE;
 
         if (mNoteEdit != null) {
@@ -825,20 +797,6 @@ public class MainFragment extends Fragment implements View.OnTouchListener,
                 }
                 break;
 
-//		case R.id.btn_speech:
-//			Settings.SELECTION_START = mNoteEdit.getSelectionStart();
-//			Settings.SELECTION_END = mNoteEdit.getSelectionEnd();
-//			if (!isListening)
-//				speak(ACTIVITY_RESULT__VOICE_SPEECH);
-//
-//			break;
-//
-//		case R.id.btn_command:
-//			Settings.SELECTION_START = mNoteEdit.getSelectionStart();
-//			Settings.SELECTION_END = mNoteEdit.getSelectionEnd();
-//
-//			speak(ACTIVITY_RESULT__VOICE_COMMAND);
-//			break;
         }
 
         return false;

@@ -4,4 +4,4 @@
         android:state_pressed="true" />
     <item
         android:drawable="@color/default_color" />
-</selector><!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/src/main/res/drawable/drive_selector.xml -->
+</selector><!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/src/main/res/drawable/drive_selector.xml -->

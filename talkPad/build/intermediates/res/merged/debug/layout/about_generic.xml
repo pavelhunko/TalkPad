@@ -95,4 +95,4 @@
         android:autoLink="email"
         android:text="@string/ui_art_licence_content" />
 
-</LinearLayout><!-- From: file:/D:/workspace/upwork/TalkPad/xgouchet/src/main/res/layout/about_generic.xml --><!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/build/intermediates/exploded-aar/TalkPad/xgouchet/unspecified/res/layout/about_generic.xml -->
+</LinearLayout><!-- From: file:/home/pavelhunko/workspace/TalkPad/xgouchet/src/main/res/layout/about_generic.xml --><!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/build/intermediates/exploded-aar/TalkPad/xgouchet/unspecified/res/layout/about_generic.xml -->

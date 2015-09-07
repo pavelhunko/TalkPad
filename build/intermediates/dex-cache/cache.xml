@@ -2,67 +2,67 @@
 <items version="2" >
 
     <item
-        jar="D:\Program Files\android-sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
-        <dex dex="D:\workspace\upwork\TalkPad\talkPad\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-5e5c65b06336a306112a14d9214f379d93600474.jar" />
-    </item>
-    <item
-        jar="D:\workspace\upwork\TalkPad\talkPad\build\intermediates\exploded-aar\TalkPad\iconContextMenu_T\unspecified\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="e818cf6fda753e64788b50decc47746aba37cade">
-        <dex dex="D:\workspace\upwork\TalkPad\talkPad\build\intermediates\pre-dexed\debug\classes-bbe3567f68b558bb0d1bf1f84061de7bb7773210.jar" />
-    </item>
-    <item
-        jar="D:\workspace\upwork\TalkPad\talkPad\build\intermediates\exploded-aar\com.github.clans\fab\1.6.0\jars\classes.jar"
+        jar="/home/pavelhunko/workspace/TalkPad/talkPad/build/intermediates/exploded-aar/com.github.clans/fab/1.6.0/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="f61181528d587cc6fe45719e4560153935d374c2">
-        <dex dex="D:\workspace\upwork\TalkPad\talkPad\build\intermediates\pre-dexed\debug\classes-d8dcd29078378dca8f099c6d0854f9c28a5340b1.jar" />
+        <dex dex="/home/pavelhunko/workspace/TalkPad/talkPad/build/intermediates/pre-dexed/debug/classes-b9ae9d3da5864811830caab9845680bccc0f834f.jar" />
     </item>
     <item
-        jar="D:\workspace\upwork\TalkPad\talkPad\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\jars\classes.jar"
+        jar="/home/pavelhunko/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
-        <dex dex="D:\workspace\upwork\TalkPad\talkPad\build\intermediates\pre-dexed\debug\classes-c94d89d322c11cd463489eddca21403dbabceccb.jar" />
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/home/pavelhunko/workspace/TalkPad/talkPad/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-ce10bd18451c460ed79a8be421393121b9e54484.jar" />
     </item>
     <item
-        jar="D:\workspace\upwork\TalkPad\talkPad\build\intermediates\exploded-aar\TalkPad\xgouchet\unspecified\jars\libs\juniversalchardet-1.0.3.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="591d72211acc0b909b79c840e0b3ed9a0982d807">
-        <dex dex="D:\workspace\upwork\TalkPad\talkPad\build\intermediates\pre-dexed\debug\juniversalchardet-1.0.3-ead47e486325532f76cbe65d3eacd945ceec853a.jar" />
-    </item>
-    <item
-        jar="D:\workspace\upwork\TalkPad\talkPad\build\intermediates\exploded-aar\TalkPad\xgouchet\unspecified\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="179ba3761a36a84edfa25241c8bae9cc9c57d73c">
-        <dex dex="D:\workspace\upwork\TalkPad\talkPad\build\intermediates\pre-dexed\debug\classes-8a3253ac795a03e9824712943b0eb531e8903c50.jar" />
-    </item>
-    <item
-        jar="D:\workspace\upwork\TalkPad\talkPad\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\libs\internal_impl-21.0.3.jar"
+        jar="/home/pavelhunko/workspace/TalkPad/talkPad/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/libs/internal_impl-21.0.3.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
-        <dex dex="D:\workspace\upwork\TalkPad\talkPad\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-efbaea0dd0080dbc089bc472124e97bbe361f1ac.jar" />
+        <dex dex="/home/pavelhunko/workspace/TalkPad/talkPad/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-65330399886f8eb42e580077e4b0fd71fc6eaf45.jar" />
     </item>
     <item
-        jar="D:\workspace\upwork\TalkPad\talkPad\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\classes.jar"
+        jar="/home/pavelhunko/workspace/TalkPad/talkPad/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/home/pavelhunko/workspace/TalkPad/talkPad/build/intermediates/pre-dexed/debug/classes-67a567e554579295f8d26b2288b134d6a7a9e876.jar" />
+    </item>
+    <item
+        jar="/home/pavelhunko/workspace/TalkPad/talkPad/build/intermediates/exploded-aar/TalkPad/iconContextMenu_T/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="599f3eec35bd0faa6f6dd927832381c137684009">
+        <dex dex="/home/pavelhunko/workspace/TalkPad/talkPad/build/intermediates/pre-dexed/debug/classes-27fd41c6f09a0984442f081b681feb79cb74efe2.jar" />
+    </item>
+    <item
+        jar="/home/pavelhunko/workspace/TalkPad/talkPad/build/intermediates/exploded-aar/TalkPad/xgouchet/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="31bedecc5b94f344d5e900364e472db6243f0ec4">
+        <dex dex="/home/pavelhunko/workspace/TalkPad/talkPad/build/intermediates/pre-dexed/debug/classes-2d83de322a335c7c8c1de675e2133f8b60045387.jar" />
+    </item>
+    <item
+        jar="/home/pavelhunko/workspace/TalkPad/talkPad/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
-        <dex dex="D:\workspace\upwork\TalkPad\talkPad\build\intermediates\pre-dexed\debug\classes-91c86464350bcd55165fe25cc5d5526f17942acc.jar" />
+        <dex dex="/home/pavelhunko/workspace/TalkPad/talkPad/build/intermediates/pre-dexed/debug/classes-673cc000b18c79bf6a4d003dc0c2b9a2877e93c4.jar" />
     </item>
     <item
-        jar="D:\workspace\upwork\TalkPad\talkPad\build\intermediates\exploded-aar\TalkPad\viewpagier\unspecified\jars\classes.jar"
+        jar="/home/pavelhunko/workspace/TalkPad/talkPad/build/intermediates/exploded-aar/TalkPad/viewpagier/unspecified/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="2171c527fc3da16def28b3e3d7f2fb7b444b8965">
-        <dex dex="D:\workspace\upwork\TalkPad\talkPad\build\intermediates\pre-dexed\debug\classes-cc33df692a824e1e959501ad05aea58adbb58955.jar" />
+        sha1="ef637a5620e8667c36d2a5ab32edfed97f707d44">
+        <dex dex="/home/pavelhunko/workspace/TalkPad/talkPad/build/intermediates/pre-dexed/debug/classes-d01e156d7acca5d034b2718e5bac3a106bbd791a.jar" />
+    </item>
+    <item
+        jar="/home/pavelhunko/workspace/TalkPad/talkPad/build/intermediates/exploded-aar/TalkPad/xgouchet/unspecified/jars/libs/juniversalchardet-1.0.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="591d72211acc0b909b79c840e0b3ed9a0982d807">
+        <dex dex="/home/pavelhunko/workspace/TalkPad/talkPad/build/intermediates/pre-dexed/debug/juniversalchardet-1.0.3-185cd9a67a951de581e0a7baa247d125cb278419.jar" />
     </item>
 
 </items>

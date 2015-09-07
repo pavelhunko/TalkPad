@@ -36,4 +36,4 @@
             android:text="@string/ui_cancel" />
     </LinearLayout>
 
-</LinearLayout><!-- From: file:/D:/workspace/upwork/TalkPad/xgouchet/src/main/res/layout/buttons_yes_no_cancel.xml --><!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/build/intermediates/exploded-aar/TalkPad/xgouchet/unspecified/res/layout/buttons_yes_no_cancel.xml -->
+</LinearLayout><!-- From: file:/home/pavelhunko/workspace/TalkPad/xgouchet/src/main/res/layout/buttons_yes_no_cancel.xml --><!-- From: file:/home/pavelhunko/workspace/TalkPad/talkPad/build/intermediates/exploded-aar/TalkPad/xgouchet/unspecified/res/layout/buttons_yes_no_cancel.xml -->
