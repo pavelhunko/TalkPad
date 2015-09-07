@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/home/pavelhunko/workspace/TalkPad1/xgouchet/src/main/res/values-fr/toasts.xml -->
+    <!-- From: file:/D:/workspace/upwork/TalkPad/xgouchet/src/main/res/values-fr/toasts.xml -->
     <eat-comment/>
     <string name="toast_folder_cant_read">"Impossible d'afficher le dossier car il est protegé"</string>
     <string name="toast_folder_doesnt_exist">"Impossible d'afficher le dossier car il n'existe pas"</string>
     <string name="toast_folder_not_folder">"Impossible d'afficher le dossier"</string>
     <string name="toast_no_market">"L'Android Play Store n'est pas installé sur cet appareil"</string>
-    <!-- From: file:/home/pavelhunko/workspace/TalkPad1/xgouchet/src/main/res/values-fr/strings.xml -->
+    <!-- From: file:/D:/workspace/upwork/TalkPad/xgouchet/src/main/res/values-fr/strings.xml -->
     <eat-comment/>
     <string name="ui_additional_licences">Licences supplémentaires</string>
     <string name="ui_app_rating">"Noter cette application \n Laisser un commentaire"</string>

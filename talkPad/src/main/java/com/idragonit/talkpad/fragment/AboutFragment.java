@@ -1,27 +1,40 @@
 package com.idragonit.talkpad.fragment;
 
 
-import android.app.AlertDialog;
-import android.app.Dialog;
-import android.support.v4.app.DialogFragment;
-import android.content.DialogInterface;
+
 import android.os.Bundle;
+import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.Button;
 
 import com.idragonit.talkpad.R;
 
-public class AboutFragment extends DialogFragment{
+public class AboutFragment extends Fragment implements View.OnClickListener{
+
+    Button okButton;
+
     @Override
-    public Dialog onCreateDialog(Bundle savedInstanceState) {
-        final AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
-        LayoutInflater inflater = getActivity().getLayoutInflater();
-        builder.setView(inflater.inflate(R.layout.fragment_about, null))
-                .setPositiveButton(R.string.ui_ok, new DialogInterface.OnClickListener(){
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        dismiss();
-                    }
-                });
-        return builder.create();
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+
+        View view = inflater.inflate(R.layout.fragment_about, container, false);
+        okButton = (Button) view.findViewById(R.id.about_ok_button);
+
+
+        return view;
+    }
+
+    @Override
+    public void onActivityCreated(Bundle savedInstanceState) {
+
+        super.onActivityCreated(savedInstanceState);
+        okButton.setOnClickListener(this);
+    }
+
+    @Override
+    public void onClick(View v) {
+        getActivity().getSupportFragmentManager().popBackStack();
+
     }
 }

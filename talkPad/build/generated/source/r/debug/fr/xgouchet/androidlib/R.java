@@ -10,11 +10,11 @@ public final class R {
 	public static final class dimen {
 		public static final int compound_text_drawable_padding = 0x7f07002b;
 		public static final int dialog_buttons_margin = 0x7f070039;
-		public static final int list_item_pading = 0x7f07003c;
+		public static final int list_item_pading = 0x7f07003f;
 	}
 	public static final class drawable {
-		public static final int app_rating = 0x7f02003b;
-		public static final int donate = 0x7f020044;
+		public static final int app_rating = 0x7f02003a;
+		public static final int donate = 0x7f020043;
 		public static final int file = 0x7f020047;
 		public static final int file_apk = 0x7f020048;
 		public static final int file_apk_locked = 0x7f020049;
@@ -69,15 +69,15 @@ public final class R {
 		public static final int up = 0x7f0200a8;
 	}
 	public static final class id {
-		public static final int buttonCancel = 0x7f0c004b;
+		public static final int buttonCancel = 0x7f0c0052;
 		public static final int buttonDonate = 0x7f0c0004;
 		public static final int buttonMail = 0x7f0c0005;
 		public static final int buttonMarket = 0x7f0c0006;
-		public static final int buttonNo = 0x7f0c004e;
-		public static final int buttonOk = 0x7f0c004c;
+		public static final int buttonNo = 0x7f0c0055;
+		public static final int buttonOk = 0x7f0c0053;
 		public static final int buttonRate = 0x7f0c0007;
-		public static final int buttonYes = 0x7f0c004d;
-		public static final int textFileName = 0x7f0c000c;
+		public static final int buttonYes = 0x7f0c0054;
+		public static final int textFileName = 0x7f0c000d;
 	}
 	public static final class layout {
 		public static final int about_generic = 0x7f030017;

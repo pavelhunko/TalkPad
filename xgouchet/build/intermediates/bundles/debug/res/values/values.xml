@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/home/pavelhunko/workspace/TalkPad1/xgouchet/src/main/res/values/dimen.xml -->
+    <!-- From: file:/D:/workspace/upwork/TalkPad/xgouchet/src/main/res/values/dimen.xml -->
     <eat-comment/>
     <dimen name="compound_text_drawable_padding">5dp</dimen>
     <dimen name="dialog_buttons_margin">16dp</dimen>
     <dimen name="list_item_pading">4dp</dimen>
-    <!-- From: file:/home/pavelhunko/workspace/TalkPad1/xgouchet/src/main/res/values/ids.xml -->
+    <!-- From: file:/D:/workspace/upwork/TalkPad/xgouchet/src/main/res/values/ids.xml -->
     <eat-comment/>
     <item name="buttonDonate" type="id"/>
     <item name="buttonMail" type="id"/>
     <item name="buttonMarket" type="id"/>
     <item name="buttonRate" type="id"/>
     <item name="textFileName" type="id"/>
-    <!-- From: file:/home/pavelhunko/workspace/TalkPad1/xgouchet/src/main/res/values/toasts.xml -->
+    <!-- From: file:/D:/workspace/upwork/TalkPad/xgouchet/src/main/res/values/toasts.xml -->
     <eat-comment/>
     <string name="toast_folder_cant_read">"Can't display folder cause it isn't readable"</string>
     <string name="toast_folder_doesnt_exist">"Can't display folder cause it doesn't exist"</string>
     <string name="toast_folder_not_folder">"Can't display folder cause it isn't a fodler"</string>
     <string name="toast_no_market">The Android Play Store is not present on this device</string>
-    <!-- From: file:/home/pavelhunko/workspace/TalkPad1/xgouchet/src/main/res/values/strings.xml -->
+    <!-- From: file:/D:/workspace/upwork/TalkPad/xgouchet/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="ui_additional_licences">Additional Licences</string>
     <string name="ui_app_rating">"Rate this app \n Leave a feedback"</string>
@@ -42,7 +42,7 @@
     <string name="ui_ok">OK</string>
     <string name="ui_whats_new">"What's new"</string>
     <string name="ui_yes">Yes</string>
-    <!-- From: file:/home/pavelhunko/workspace/TalkPad1/xgouchet/src/main/res/values/styles.xml -->
+    <!-- From: file:/D:/workspace/upwork/TalkPad/xgouchet/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="ButtonSmall">
         <item name="android:padding">6dp</item>

@@ -2,4 +2,4 @@
 <translate xmlns:android="http://schemas.android.com/apk/res/android"
     android:duration="300"
     android:fromXDelta="100%"
-    android:toXDelta="0%" /><!-- From: file:/home/pavelhunko/workspace/TalkPad1/talkPad/src/main/res/anim/slide1.xml -->
+    android:toXDelta="0%" /><!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/src/main/res/anim/slide1.xml -->

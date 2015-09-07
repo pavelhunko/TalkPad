@@ -16,8 +16,9 @@ public interface Constants {
     public final static int SAVE_FRAGMENT = 3;
     public final static int SAVE_AS_FRAGMENT = 4;
     public final static int RECENT_FRAGMENT = 5;
-    public final static int EXIT_FRAGMENT = 6;
-	public final static int ABOUT_FRAGMENT = 7;
+	public final static int ABOUT_FRAGMENT = 6;
+	public final static int EXIT_FRAGMENT = 7;
+
 	
 	public final static int NEW_MODE = 0;
 	public final static int OPEN_MODE = 1;

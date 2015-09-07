@@ -26,6 +26,7 @@ import android.content.res.Configuration;
 import android.util.Log;
 import android.view.Gravity;
 import android.view.KeyEvent;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.WindowManager;
 import android.os.Bundle;
@@ -44,12 +45,13 @@ import android.widget.ListView;
 import android.widget.Toast;
 
 public class MainActivity extends FragmentActivity implements
-        DialogInterface.OnClickListener, Constants {
+        DialogInterface.OnClickListener, Constants{
 
     private boolean FROM_MENU = false;
 
     private String TAG = "MainActivity";
     private MainActivity instance;
+    private MainFragment mainFragment;
 
     DrawerLayout slideLayout;
     ListView slideList;
@@ -59,6 +61,7 @@ public class MainActivity extends FragmentActivity implements
     protected void onCreate(Bundle savedInstanceState) {
         // TODO Auto-generated method stub
         super.onCreate(savedInstanceState);
+        mainFragment = new MainFragment();
 
         AppConstants.ASSET_MANAGER = getAssets();
 
@@ -145,6 +148,8 @@ public class MainActivity extends FragmentActivity implements
         slideLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
         slideLayout.setDrawerShadow(R.drawable.drawer_shadow,
                 GravityCompat.START);
+        slideLayout.setDrawerListener(new SlideMenuListener());
+
 
         slideList = (ListView) findViewById(R.id.list_slide);
         slideAdapter = new MenuAdapter(this);
@@ -189,6 +194,7 @@ public class MainActivity extends FragmentActivity implements
 
         switch (window) {
             case NEW_FRAGMENT:
+//                MainFragment.showFloatingActionMenu();
                 slideLayout.setDrawerLockMode(DrawerLayout.LOCK_MODE_UNLOCKED);
                 if (FROM_MENU) {
                     if (Settings.TEMP_NOTES.equals(Settings.BEFORE_NOTES)) {
@@ -205,11 +211,13 @@ public class MainActivity extends FragmentActivity implements
                 break;
 
             case OPEN_FRAGMENT:
+//                mainFragment.hideFloatingActionMenu();
                 slideLayout.setDrawerLockMode(DrawerLayout.LOCK_MODE_LOCKED_CLOSED);
                 fragment = new OpenFragment();
                 break;
 
             case SAVE_FRAGMENT:
+//                mainFragment.hideFloatingActionMenu();
                 if (AppConstants.SAVE_MODE == NOT_SAVE_MODE) {
                     slideLayout.setDrawerLockMode(DrawerLayout.LOCK_MODE_LOCKED_CLOSED);
                     fragment = new SaveFragment();
@@ -289,22 +297,26 @@ public class MainActivity extends FragmentActivity implements
                 break;
 
             case SAVE_AS_FRAGMENT:
+//                MainFragment.hideFloatingActionMenu();
                 slideLayout.setDrawerLockMode(DrawerLayout.LOCK_MODE_LOCKED_CLOSED);
                 fragment = new SaveFragment();
                 break;
 
             case RECENT_FRAGMENT:
+//                MainFragment.hideFloatingActionMenu();
                 slideLayout.setDrawerLockMode(DrawerLayout.LOCK_MODE_LOCKED_CLOSED);
                 fragment = new RecentFragment();
                 break;
 
 
             case ABOUT_FRAGMENT:
+//                MainFragment.hideFloatingActionMenu();
                 slideLayout.setDrawerLockMode(DrawerLayout.LOCK_MODE_LOCKED_CLOSED);
                 fragment = new AboutFragment();
                 break;
 
             case EXIT_FRAGMENT:
+//                MainFragment.hideFloatingActionMenu();
                 if (Settings.TEMP_NOTES.equals(Settings.BEFORE_NOTES)) {
                     instance.init();
                     AppConstants.FILE_MANAGER__LOCATION = "";
@@ -325,10 +337,15 @@ public class MainActivity extends FragmentActivity implements
 
         if (fragment != null) {
             FragmentManager fragmentManager = getSupportFragmentManager();
+//            Fragment currentFragment = fragmentManager.findFragmentById(R.id.main_fragment);
+
             FragmentTransaction fragTrs = fragmentManager.beginTransaction();
             fragTrs.setCustomAnimations(R.anim.slide1, R.anim.slide2);
             fragTrs.addToBackStack(null);
             fragTrs.replace(R.id.content_frame, fragment).commitAllowingStateLoss();
+//            if (fragment instanceof MainFragment)
+//                mainFragment.showFloatingActionMenu();
+//            else mainFragment.hideFloatingActionMenu();
             // fragTrs.commit();
         }
     }
@@ -344,11 +361,18 @@ public class MainActivity extends FragmentActivity implements
     public void openMenu() {
         // TODO Auto-generated method stub
         slideLayout.openDrawer(Gravity.START);
+//        MainFragment.hideFloatingActionMenu();
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
     }
 
     @Override
     public boolean onKeyDown(int keyCode, KeyEvent event) {
         // TODO Auto-generated method stub
+//        MainFragment.showFloatingActionMenu();
         if (keyCode == KeyEvent.KEYCODE_BACK) {
             Log.e("back", "");
             slideLayout.closeDrawers();
@@ -364,10 +388,6 @@ public class MainActivity extends FragmentActivity implements
         return super.onKeyDown(keyCode, event);
     }
 
-    public void aboutFragmentShow(Fragment f) {
-        f = new AboutFragment();
-//		f.show(getActivity().getSupportFragmentManager(), "CommandsDialogFragment");
-    }
 
     public void showConfirmDialog() {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
@@ -393,6 +413,7 @@ public class MainActivity extends FragmentActivity implements
     @Override
     public void onClick(DialogInterface dialog, int which) {
         // TODO Auto-generated method stub
+
         switch (which) {
             case DialogInterface.BUTTON_POSITIVE:
                 // Yes button clicked
@@ -418,4 +439,26 @@ public class MainActivity extends FragmentActivity implements
         }
     }
 
+    private class SlideMenuListener implements DrawerLayout.DrawerListener{
+
+        @Override
+        public void onDrawerSlide(View drawerView, float slideOffset) {
+
+        }
+
+        @Override
+        public void onDrawerOpened(View drawerView) {
+//            mainFragment.hideFloatingActionMenu();
+        }
+
+        @Override
+        public void onDrawerClosed(View drawerView) {
+//            mainFragment.showFloatingActionMenu();
+        }
+
+        @Override
+        public void onDrawerStateChanged(int newState) {
+
+        }
+    }
 }

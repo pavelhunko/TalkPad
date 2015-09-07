@@ -24,6 +24,6 @@ dependencies {
     compile project(':iconContextMenu_T')
     compile 'com.android.support:support-v4:21.0.3'
     compile 'com.android.support:appcompat-v7:21.0.3'
-    compile 'it.sephiroth.android.library.floatingmenu:floatingmenu:1.0.1'
+    compile 'com.github.clans:fab:1.6.0'
 
 }

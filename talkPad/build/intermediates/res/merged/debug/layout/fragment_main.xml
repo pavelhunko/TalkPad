@@ -1,20 +1,22 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_fragment"
     android:background="#ffffff"
-    android:gravity="top" >
+    android:gravity="top">
 
     <RelativeLayout
         android:id="@+id/relativeLayout_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true" >
+        android:layout_alignParentTop="true">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <include layout="@layout/header" />
 
@@ -22,12 +24,12 @@
                 android:id="@+id/layout_toolbar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical" >
+                android:orientation="vertical">
 
                 <include layout="@layout/toolbar" />
-                
+
             </LinearLayout>
-            
+
         </LinearLayout>
     </RelativeLayout>
 
@@ -35,25 +37,25 @@
         android:id="@+id/scroll_view"
         android:layout_width="fill_parent"
         android:layout_height="match_parent"
-        android:layout_above="@+id/layout_command"
+
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/relativeLayout_1"
         android:background="#ffffffff"
         android:fadingEdge="vertical"
         android:fastScrollEnabled="true"
         android:fillViewport="true"
-        android:scrollbars="vertical" >
+        android:scrollbars="vertical">
 
         <RelativeLayout
             android:id="@+id/lay_root"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+            android:layout_height="match_parent">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@android:color/white"
-                android:orientation="vertical" >
+                android:orientation="vertical">
 
                 <com.idragonit.talkpad.editor.TNoteEditText
                     android:id="@+id/editor"
@@ -65,13 +67,79 @@
                     android:paddingBottom="10dp"
                     android:paddingEnd="6dp"
                     android:paddingLeft="12dp"
-                    android:paddingRight="6dp"
-                    >
-                </com.idragonit.talkpad.editor.TNoteEditText>
+                    android:paddingRight="6dp"></com.idragonit.talkpad.editor.TNoteEditText>
+
+
             </LinearLayout>
         </RelativeLayout>
+
+
     </com.idragonit.talkpad.ui.ResponsiveScrollView>
 
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <com.github.clans.fab.FloatingActionMenu
+            android:id="@+id/floating_action_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            fab:menu_fab_size="normal"
+            fab:menu_showShadow="true"
+            fab:menu_shadowColor="#66000000"
+            fab:menu_shadowRadius="4dp"
+            fab:menu_shadowXOffset="1dp"
+            fab:menu_shadowYOffset="3dp"
+            fab:menu_colorNormal="#DA4336"
+            fab:menu_colorPressed="#E75043"
+            fab:menu_colorRipple="#99FFFFFF"
+            fab:menu_animationDelayPerItem="50"
+            fab:menu_icon="@drawable/fab_add"
+            fab:menu_buttonSpacing="0dp"
+            fab:menu_labels_margin="0dp"
+            fab:menu_labels_showAnimation="@anim/fab_slide_in_from_right"
+            fab:menu_labels_hideAnimation="@anim/fab_slide_out_to_right"
+            fab:menu_labels_paddingTop="4dp"
+            fab:menu_labels_paddingRight="8dp"
+            fab:menu_labels_paddingBottom="4dp"
+            fab:menu_labels_paddingLeft="8dp"
+            fab:menu_labels_padding="8dp"
+            fab:menu_labels_textColor="#FFFFFF"
+            fab:menu_labels_textSize="14sp"
+            fab:menu_labels_cornerRadius="3dp"
+            fab:menu_labels_colorNormal="#333333"
+            fab:menu_labels_colorPressed="#444444"
+            fab:menu_labels_colorRipple="#66FFFFFF"
+            fab:menu_labels_showShadow="true"
+            fab:menu_labels_singleLine="false"
+            fab:menu_labels_ellipsize="none"
+            fab:menu_labels_maxLines="-1"
+            fab:menu_labels_position="left"
+            fab:menu_openDirection="up"
+            fab:menu_backgroundColor="@android:color/transparent">
+
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/floating_menu_speech"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_speech"
+                fab:fab_size="mini" />
+
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/floating_menu_command"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_command"
+                fab:fab_size="mini" />
+
+        </com.github.clans.fab.FloatingActionMenu>
+    </FrameLayout>
 
 
-</RelativeLayout><!-- From: file:/home/pavelhunko/workspace/TalkPad1/talkPad/src/main/res/layout/fragment_main.xml -->
+</RelativeLayout><!-- From: file:/D:/workspace/upwork/TalkPad/talkPad/src/main/res/layout/fragment_main.xml -->

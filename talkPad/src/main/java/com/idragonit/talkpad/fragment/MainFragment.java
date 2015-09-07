@@ -1,8 +1,5 @@
 package com.idragonit.talkpad.fragment;
 
-import it.sephiroth.android.library.floatingmenu.FloatingActionItem;
-import it.sephiroth.android.library.floatingmenu.FloatingActionMenu;
-
 import java.io.File;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -47,6 +44,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.github.clans.fab.FloatingActionMenu;
 import com.idragonit.talkpad.AppConstants;
 import com.idragonit.talkpad.R;
 import com.idragonit.talkpad.adapter.PagerAdapter;
@@ -65,21 +63,21 @@ import com.idragonit.talkpad.utils.Stack;
 import com.viewpagerindicator.CirclePageIndicator;
 
 public class MainFragment extends Fragment implements View.OnTouchListener,
-        TextWatcher, Constants, LanguagePickerDialog.LanguagePickerListener, FloatingActionMenu.OnItemClickListener {
+        TextWatcher, Constants, LanguagePickerDialog.LanguagePickerListener {
 
     /**
      *
      */
     private static final long serialVersionUID = 1L;
-
+    static Boolean vis;
     private static String TAG = "MainFragment";
     static private TNoteData mNote; // g
+//    private static FloatingActionMenu mFloatingActionMenu;
     protected TNoteEditText mNoteEdit; // a
     MainFragment instance;
     FontFragment mFontFragment;
     ParagraphFragment mParagraphFragment;
     PhotoFragment mPhotoFragment;
-    CommandsDialogFragment mCommandsDialogFragment;
     public Handler mNoteMsgHandler = new Handler() {
         public final void handleMessage(Message message) {
 
@@ -146,23 +144,17 @@ public class MainFragment extends Fragment implements View.OnTouchListener,
 
         }
     };
+    CommandsDialogFragment mCommandsDialogFragment;
     View btnMenu;
     LinearLayout mLayoutCommand = null;
     LinearLayout mLayoutToolbar = null;
     RelativeLayout mLayoutPager = null;
     RelativeLayout mLayoutHeader = null;
     ResponsiveScrollView mScrollView = null;
-
     //	private ImageButton mSpeechBtn;
 //	private ImageButton mCommandBtn;
     KeyboardPopupListener key_listener;
     LanguagePickerDialog languagePickerDialog;
-
-    public interface KeyboardPopupListener {
-        public void onShow();
-
-        public void onHide();
-    }
     Handler mCommandClickListener = new Handler() {
         public void handleMessage(Message msg) {
             Intent intent;
@@ -484,11 +476,26 @@ public class MainFragment extends Fragment implements View.OnTouchListener,
     private SpeechRecognizer mSpeechRecognizer;
     private Intent mSpeechRecognizerIntent;
     private boolean isListening;
-    private FloatingActionMenu mFloatingActionMenu;
     private ImageButton mUndoBtn;
     private ImageButton mRedoBtn;
     private ImageView mSettingBtn;
     private boolean isOperating = true;
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        //setFloatingActionMenuVisibility();
+    }
+
+    public synchronized Boolean setFloatingActionMenuVisibility() {
+        return instance.getUserVisibleHint();
+    }
+
+    @Override
+    public void onPause() {
+        super.onPause();
+//        setFloatingActionMenuVisibility();
+    }
 
     private int dpToPx(int dp) {
         float density = getActivity().getApplicationContext().getResources()
@@ -527,7 +534,7 @@ public class MainFragment extends Fragment implements View.OnTouchListener,
         btnMenu.setOnTouchListener(this);
 
         mLayoutToolbar = (LinearLayout) view.findViewById(R.id.layout_toolbar);
-        mLayoutCommand = (LinearLayout) view.findViewById(R.id.layout_command);
+//        mLayoutCommand = (LinearLayout) view.findViewById(R.id.layout_command);
         mLayoutPager = (RelativeLayout) view.findViewById(R.id.layout_pager);
         mLayoutHeader = (RelativeLayout) view.findViewById(R.id.layout_header);
 
@@ -543,20 +550,21 @@ public class MainFragment extends Fragment implements View.OnTouchListener,
 //		mCommandBtn = (ImageButton) view.findViewById(R.id.btn_command);
 
 
-        FloatingActionItem fSpeechButton = new FloatingActionItem.Builder(0).withResId(R.drawable.speech_selector)
-                .withDelay(0)
-                .withPadding(4)
-                .build();
-        FloatingActionItem fCommandButton = new FloatingActionItem.Builder(1).withResId(R.drawable.command_selector).withPadding(4)
-                .withDelay(50).build();
+//        FloatingActionItem fSpeechButton = new FloatingActionItem.Builder(0).withResId(R.drawable.speech_selector)
+//                .withDelay(0)
+//                .withPadding(4)
+//                .build();
+//        FloatingActionItem fCommandButton = new FloatingActionItem.Builder(1).withResId(R.drawable.command_selector).withPadding(4)
+//                .withDelay(50).build();
+//
+//        mFloatingActionMenu = new FloatingActionMenu.Builder(getActivity())
+//                .addItem(fSpeechButton)
+//                .addItem(fCommandButton)
+//                .withGravity(FloatingActionMenu.Gravity.CENTER_HORIZONTAL | FloatingActionMenu.Gravity.BOTTOM)
+//                .build();
+//
+//        mFloatingActionMenu.setOnItemClickListener(this);
 
-        mFloatingActionMenu = new FloatingActionMenu.Builder(getActivity())
-                .addItem(fSpeechButton)
-                .addItem(fCommandButton)
-                .withGravity(FloatingActionMenu.Gravity.CENTER_HORIZONTAL | FloatingActionMenu.Gravity.BOTTOM)
-                .build();
-
-        mFloatingActionMenu.setOnItemClickListener(this);
         if (AppConstants.LINE_NUMBER) {
             mNoteEdit.setPadding(dpToPx(25), dpToPx(3), dpToPx(10), dpToPx(6));
         } else {
@@ -678,7 +686,7 @@ public class MainFragment extends Fragment implements View.OnTouchListener,
 
     private void onListOfCommands() {
         //create new dialog with empty text box
-        mCommandsDialogFragment= new CommandsDialogFragment();
+        mCommandsDialogFragment = new CommandsDialogFragment();
         mCommandsDialogFragment.show(getActivity().getSupportFragmentManager(), "CommandsDialogFragment");
     }
 
@@ -1153,26 +1161,26 @@ public class MainFragment extends Fragment implements View.OnTouchListener,
         }
     }
 
-    @Override
-    public void onItemClick(final FloatingActionMenu floatingActionMenu, final int i) {
-        //Log.i(TAG, "onItemClick: " + i);
-        //Toast.makeText(getActivity(), "item click " + i, Toast.LENGTH_SHORT).show();
-        switch (i) {
-            case 0:
-                Settings.SELECTION_START = mNoteEdit.getSelectionStart();
-                Settings.SELECTION_END = mNoteEdit.getSelectionEnd();
-                if (!isListening)
-                    speak(ACTIVITY_RESULT__VOICE_SPEECH);
-
-                break;
-
-            case 1:
-                Settings.SELECTION_START = mNoteEdit.getSelectionStart();
-                Settings.SELECTION_END = mNoteEdit.getSelectionEnd();
-                speak(ACTIVITY_RESULT__VOICE_COMMAND);
-                break;
-        }
-    }
+//    @Override
+//    public void onItemClick(final FloatingActionMenu floatingActionMenu, final int i) {
+//        //Log.i(TAG, "onItemClick: " + i);
+//        //Toast.makeText(getActivity(), "item click " + i, Toast.LENGTH_SHORT).show();
+//        switch (i) {
+//            case 0:
+//                Settings.SELECTION_START = mNoteEdit.getSelectionStart();
+//                Settings.SELECTION_END = mNoteEdit.getSelectionEnd();
+//                if (!isListening)
+//                    speak(ACTIVITY_RESULT__VOICE_SPEECH);
+//
+//                break;
+//
+//            case 1:
+//                Settings.SELECTION_START = mNoteEdit.getSelectionStart();
+//                Settings.SELECTION_END = mNoteEdit.getSelectionEnd();
+//                speak(ACTIVITY_RESULT__VOICE_COMMAND);
+//                break;
+//        }
+//    }
 
     @Override
     public void onLanguagePickerDoneClick(DialogFragment dialog) {
@@ -1194,6 +1202,12 @@ public class MainFragment extends Fragment implements View.OnTouchListener,
 
             languagePickerDialog.dismiss();
         }
+    }
+
+    public interface KeyboardPopupListener {
+        public void onShow();
+
+        public void onHide();
     }
 
     protected class SpeechRecognitionListener implements RecognitionListener {
